@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM   from 'react-dom'
-import { browserHistory, Router } from 'react-router'
+import { Router } from 'react-router'
+import { createBrowserHistory } from 'history';
 import { syncHistoryWithStore } from 'react-router-redux'
 import { Provider } from 'react-redux'
 import routes from './routes'
@@ -12,7 +13,7 @@ import { applyMiddleware, createStore } from 'redux'
 
 const sagaMiddleware = createSagaMiddleware()
 const store = createStore(rootReducer, {}, applyMiddleware(sagaMiddleware, logger))
-const history = syncHistoryWithStore(browserHistory, store)
+const history = syncHistoryWithStore(createBrowserHistory(), store)
 
 const component = (
   <Provider store={store}>
