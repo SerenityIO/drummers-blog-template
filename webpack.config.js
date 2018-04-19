@@ -25,10 +25,10 @@ module.exports = () => {
           }))
         },
         {
-          test: /\.styl/,
+          test: /\.scss/,
           use: [ 'css-hot-loader' ].concat(ExtractTextPlugin.extract({
             fallback: 'style-loader',
-            use: ['css-loader', 'stylus-loader']
+            use: ['css-loader', 'sass-loader']
           }))
         },
         {
