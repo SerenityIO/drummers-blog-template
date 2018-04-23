@@ -1,7 +1,7 @@
 {
-  "name": "react-redux-saga-hot-starter",
+  "name": "Drummers-blog-tamplate",
   "version": "1.0.0",
-  "description": "React project hot starter with Redux-Saga",
+  "description": "Drummers-blog-tamplate",
   "main": "index.js",
   "scripts": {
     "build": "webpack -p",
@@ -15,7 +15,7 @@
     "babel",
     "eslint"
   ],
-  "author": "EarlOld",
+  "author": "SerenityIO",
   "license": "MIT",
   "dependencies": {
     "babel-core": "^6.26.0",
