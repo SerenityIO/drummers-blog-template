@@ -9,3 +9,6 @@
 5. yarn start
 
 # Работаем.
+
+# Ресурсы.
+1. Макеты - https://drive.google.com/open?id=1-EVB_8oL2qyvG9eyWsw_Co1liHdB9RWL
