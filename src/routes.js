@@ -5,6 +5,8 @@ import Contacts from './containers/Contacts'
 import Home from './containers/Home'
 import Podcasts from './containers/Podcasts'
 import Products from './containers/Products'
+import Story from './containers/Story'
+
 
 
 export default (
@@ -14,5 +16,6 @@ export default (
     <Route exact component={Contacts} path='/contacts' />
     <Route exact component={Podcasts} path='/podcasts' />
     <Route exact component={Products} path='/products' />
+    <Route exact component={Story} path='/my-story' />
   </Switch>
 )
