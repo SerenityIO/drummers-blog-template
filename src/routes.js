@@ -7,8 +7,6 @@ import Podcasts from './containers/Podcasts'
 import Products from './containers/Products'
 import Story from './containers/Story'
 
-import Navbar from './containers/Navbar'
-
 export default (
   <Switch>
       <Route exact component={Home} path='/' />
