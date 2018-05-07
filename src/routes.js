@@ -1,13 +1,11 @@
 import React from 'react'
-import { Route, Switch, Redirect }  from 'react-router'
+import { Switch,  Route } from 'react-router-dom'
 import Blog from './containers/Blog'
 import Contacts from './containers/Contacts'
 import Home from './containers/Home'
 import Podcasts from './containers/Podcasts'
 import Products from './containers/Products'
 import Story from './containers/Story'
-
-
 
 export default (
   <Switch>
