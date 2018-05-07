@@ -15,3 +15,4 @@
 # Установленные либы
 - reactstrap https://reactstrap.github.io/
 - Flexbox   http://flexboxgrid.com/
+- react-fontawesome https://github.com/danawoodman/react-fontawesome/tree/0c86e87b7d087d0d762a6dae559e11165b6472b0
