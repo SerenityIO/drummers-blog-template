@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
+import Form from '../../components/ContactsForm'
+import './contacts.scss'
 
-import Form from './form'
-import Index from "./index.css"
 class Contacts extends Component {
   constructor(props) {
     super(props)
@@ -13,8 +13,7 @@ class Contacts extends Component {
   render = () => {
     return (
       <div>
-       <Form/>
-
+        <Form/>
       </div>
     )
   }
