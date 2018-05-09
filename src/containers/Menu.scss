@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul * {
+    list-style: none;
+    text-decoration: none;
+    color: #606060;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+li {
+    display: inline;
+    margin: 0px 8px 0px 8px;
+}
+
+.active-menu-link {
+    color: #ffffff;
+    border-bottom: 2px solid #ffde00;
+}

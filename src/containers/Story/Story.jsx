@@ -12,8 +12,8 @@ class Story extends Component {
   render = () => {
     return (
       <div>
-        Story Page
         <Navbar />
+        Story Page
       </div>
     )
   }
