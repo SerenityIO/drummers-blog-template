@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import NavBar from '../Navbar'
+import Input from '../../components-lib/Input'
 
 
 class Home extends Component {
@@ -12,8 +12,8 @@ class Home extends Component {
 
   render = () => {
     return (
-      <div>
-        <NavBar />
+      <div className='container'>
+        <Input width={400} />
         Home Page
       </div>
     )
