@@ -3,20 +3,24 @@
     padding: 0;
 }
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(Fonts/Roboto-Bold.ttf);
+}
+
 ul * {
+    font-family: 'Roboto';
     list-style: none;
     text-decoration: none;
     color: #606060;
-    text-transform: uppercase;
-    font-weight: bold;
 }
 
 li {
     display: inline;
-    margin: 0px 8px 0px 8px;
+    margin: 0px 6px 0px 6px;
 }
 
 .active-menu-link {
     color: #ffffff;
-    border-bottom: 2px solid #ffde00;
+    border-bottom: 3px solid #ffde00;
 }
