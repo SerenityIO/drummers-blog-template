@@ -17,7 +17,15 @@ ul * {
 
 li {
     display: inline;
-    margin: 0px 6px 0px 6px;
+}
+
+li:before {
+    content: '•';
+    padding: 0px 6px 0px 6px;
+}
+
+li:first-child:before {
+    content: '';
 }
 
 .active-menu-link {
