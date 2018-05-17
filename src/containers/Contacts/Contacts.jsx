@@ -13,7 +13,8 @@ class Contacts extends Component {
   render = () => {
     return (
       <div>
-        <Form/>
+        <Form />
+
       </div>
     )
   }

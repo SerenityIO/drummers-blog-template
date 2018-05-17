@@ -1,0 +1,236 @@
+*{
+  background-color:#f2f2f2;
+}
+.contact{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom:0px;
+  text-transform: uppercase;
+}
+.text{
+  font-size: 16px;
+  font-family: "Georgia";
+  color: rgb(126, 126, 126);
+  line-height: 1.2;
+  text-align: center;
+  left: 729px;
+  top: 436.857px;
+  z-index: 43;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+.form {
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.form :focus{
+  font-style: normal;
+}
+.form_2 :focus{
+  font-style: normal;
+}
+.form_3 :focus{
+  font-style: normal;
+}
+
+
+.form_2 {
+    font-size: 16px;
+    font-family: "Georgia";
+    color: #7e7e7e;
+    line-height: 1.2;
+    width: 72%;
+    height: 255px;
+    border-radius: 17px;
+    background-color: white;
+    resize: none;
+    font-style: italic;
+    padding: 15px;
+    box-shadow: 3px 5.196px 43px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+    outline: none;
+}
+.form_3{
+    font-size: 15px;
+   font-family: "Montserrat";
+   color: rgb(153, 153, 153);
+   font-weight: bold;
+   line-height: 1.2;
+   left: 939.147px;
+   top: 873.5px;
+   z-index: 32;
+   background-color: white;
+   width: 27%;
+   height: 45px;
+   border-radius: 20px;
+   margin-top: 20px;
+   border: none;
+   text-transform: uppercase;
+   outline:none;
+
+}
+.form_3:hover{
+  color: black;
+  background-color: silver;
+  cursor: pointer;
+   transition: 2s;
+}
+.box{
+  width: 100%;
+
+  input {
+    margin: 0px;
+    margin-bottom: 10px;
+    padding-left:  15px;
+    width: 85%;
+  }
+}
+
+
+.ask {
+  font-size: 42px;
+  font-family: "Montserrat";
+  color: rgb(31, 32, 28);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  left: 858.846px;
+  top: 1019.3px;
+  z-index: 27;
+  margin-bottom:0px;
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+// .RECORD_YOUR_MESSAGE {
+//   font-size: 16px;
+//   font-family: "Montserrat";
+//   color: rgb(31, 32, 28);
+//   font-weight: bold;
+//   line-height: 1.2;
+//   text-align: left;
+//   position: absolute;
+//   left: 537.937px;
+//   top: 1164.9px;
+//   z-index: 25;
+// }
+.form_4 {
+  text-align: center;
+ input {
+   font-size: 15px;
+   font-family: "Montserrat";
+   color: rgb(153, 153, 153);
+   font-weight: bold;
+   line-height: 1.2;
+   left: 939.147px;
+   top: 873.5px;
+   z-index: 32;
+   background-color: white;
+   width: 200px;
+   height: 35px;
+   border-radius: 20px;
+   border: none;
+   text-transform: uppercase;
+   outline:none;
+   margin-bottom: 55px;
+ }
+}
+.text_2 {
+    text-align: center;
+    font-size: 16px;
+    font-family: "Georgia";
+    color: rgb(126, 126, 126);
+    line-height: 1.2;
+    left: 479.778px;
+    top: 1077.457px;
+    width: 928px;
+    height: 35px;
+    z-index: 26;
+    margin-bottom: 55px;
+    margin-left: 122px;
+}
+
+.form_4 :hover{
+  color: black;
+  background-color: silver;
+  cursor: pointer;
+   transition: 2s;
+}
+.display{
+  display: flex;
+}
+.text_3{
+  font-size: 16px;
+  font-family: "Georgia";
+  color: rgb(126, 126, 126);
+  line-height: 1.2;
+  text-align: center;
+  left: 479.125px;
+  top: 1265.457px;
+  width: 929px;
+  height: 35px;
+  z-index: 14;
+  margin-top: 0px;
+  margin-bottom: 45px;
+  margin-left: 122px;
+}
+.form_5 {
+  text-align: center;
+  background-color: #f2f2f2;
+  margin-left: 100px;
+  margin-bottom: 60px;
+  input {
+    font-size: 14px;
+    font-family: "Georgia";
+    color: rgb(85, 85, 85);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+    left: 500.317px;
+    top: 1329.6px;
+    z-index: 13;
+    border-radius: 10px;
+    background-color: white;
+    width: 265px;
+    height: 40px;
+    font-style: italic;
+    padding: 5px 17px;
+    box-shadow: 3px 5.196px 43px 0px rgba(0, 0, 0, 0.06);
+    border: none;
+    outline:none;
+  }
+}
+.form_5 :focus{
+  font-style: normal;
+}
+.form_6 {
+  text-align: center;
+  background-color: #f2f2f2;
+  input {
+    font-size: 14px;
+    font-family: "Georgia";
+    color: rgb(85, 85, 85);
+    font-style: italic;
+    line-height: 1.2;
+    text-align: left;
+    left: 773.908px;
+    top: 1329.6px;
+    z-index: 11;
+    margin-left: 12px;
+    padding: 5px 17px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 3px 5.196px 43px 0px rgba(0, 0, 0, 0.06);
+    left: 755px;
+    top: 1318px;
+    width: 640px;
+    height: 40px;
+    border: none;
+    outline:none;
+  }
+
+}
+.form_6 :focus{
+  font-style: normal;
+}
